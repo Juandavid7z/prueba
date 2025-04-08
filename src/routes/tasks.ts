@@ -9,7 +9,7 @@ router.post('/tasks', (req: Request, res: Response) => {
       id: tasks.length + 1,
       title: req.body.title,
       description: req.body.description,
-      completed: false,
+      completed: req.body.completed,
     };
   
     tasks.push(task);
