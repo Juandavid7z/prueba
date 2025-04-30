@@ -1,5 +1,5 @@
 import express, { Request, Response } from 'express';
-import taskRoutes from './routes/tasks';
+import taskRoutes from './infrastructure/routes/tasks';
 import swaggerUI from 'swagger-ui-express';
 import specs from "../swagger/swagger";
 import cors from  'cors';
