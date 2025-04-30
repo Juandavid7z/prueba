@@ -1,5 +1,5 @@
-import { Task } from "../models/tasks";
-import { TaskRepository } from "../repositories/TaskRepository";
+import { Task } from "../../domain/models/tasks";
+import { TaskRepository } from "../../infrastructure/repositories/TaskRepository";
 
 export const TaskService = {
   getAll: () => TaskRepository.findAll(),
