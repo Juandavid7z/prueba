@@ -1,4 +1,4 @@
-import { Task } from "../models/tasks";
+import { Task } from "../../domain/models/tasks";
 
 let tasks: Task[] = [];
 
